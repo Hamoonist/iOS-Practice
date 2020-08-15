@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA11571F24E6FD2F004BC67B /* Shopping.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA11571E24E6FD2F004BC67B /* Shopping.storyboard */; };
 		CAFCB53224E47BE0000A5AFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB53124E47BE0000A5AFF /* AppDelegate.swift */; };
 		CAFCB53424E47BE0000A5AFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB53324E47BE0000A5AFF /* SceneDelegate.swift */; };
 		CAFCB53624E47BE0000A5AFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB53524E47BE0000A5AFF /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA11571E24E6FD2F004BC67B /* Shopping.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shopping.storyboard; sourceTree = "<group>"; };
 		CAFCB52E24E47BE0000A5AFF /* iOS-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFCB53124E47BE0000A5AFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAFCB53324E47BE0000A5AFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				CAFCB56224E47C5C000A5AFF /* FlypWelcome.storyboard */,
+				CA11571E24E6FD2F004BC67B /* Shopping.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				CAFCB56324E47C5C000A5AFF /* FlypWelcome.storyboard in Resources */,
 				CAFCB53E24E47BE3000A5AFF /* LaunchScreen.storyboard in Resources */,
 				CAFCB53B24E47BE3000A5AFF /* Assets.xcassets in Resources */,
+				CA11571F24E6FD2F004BC67B /* Shopping.storyboard in Resources */,
 				CAFCB53924E47BE0000A5AFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
