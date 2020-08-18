@@ -411,7 +411,7 @@
                                         </constraints>
                                     </imageView>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xI1-Pr-fRW">
-                                        <rect key="frame" x="4" y="67" width="405" height="689"/>
+                                        <rect key="frame" x="4" y="67" width="405" height="695"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Mbm-c0-u4x">
                                                 <rect key="frame" x="1" y="0.0" width="406" height="700"/>
@@ -663,101 +663,22 @@
                                         <viewLayoutGuide key="contentLayoutGuide" id="h7A-7a-4zA"/>
                                         <viewLayoutGuide key="frameLayoutGuide" id="coa-Tf-yhO"/>
                                     </scrollView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cZU-NT-mex">
-                                        <rect key="frame" x="4" y="760" width="405" height="1"/>
-                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Igl-WW-gcZ">
+                                        <rect key="frame" x="4" y="766" width="405" height="44"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="1" id="EsA-4N-osq"/>
+                                            <constraint firstAttribute="height" constant="44" id="4x6-sz-0yb"/>
                                         </constraints>
-                                    </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="RoG-sI-UwA">
-                                        <rect key="frame" x="4" y="765" width="405" height="45"/>
-                                        <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ddu-KJ-6hy">
-                                                <rect key="frame" x="0.0" y="0.0" width="81" height="45"/>
-                                                <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="house" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Od1-i6-1yS">
-                                                        <rect key="frame" x="0.0" y="-0.3333333333333357" width="81" height="24.333333333333336"/>
-                                                    </imageView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6G-Hu-oxV">
-                                                        <rect key="frame" x="0.0" y="25" width="81" height="20"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="20" id="afv-0w-KvN"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                        <state key="normal" title="Home"/>
-                                                    </button>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Hcy-OH-tSa">
-                                                <rect key="frame" x="81" y="0.0" width="81" height="45"/>
-                                                <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="wTk-IF-34B">
-                                                        <rect key="frame" x="0.0" y="1.6666666666666661" width="81" height="22.333333333333336"/>
-                                                    </imageView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tbn-SJ-VPU" userLabel="My eBay">
-                                                        <rect key="frame" x="0.0" y="25" width="81" height="20"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="20" id="ARX-Y9-JOJ"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                        <state key="normal" title="My eBay"/>
-                                                    </button>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="oj8-Ye-05c">
-                                                <rect key="frame" x="162" y="0.0" width="81" height="45"/>
-                                                <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="magnifyingglass" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="oaW-wW-0jC">
-                                                        <rect key="frame" x="0.0" y="0.99999999999999822" width="81" height="22.666666666666664"/>
-                                                    </imageView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M6O-bY-UAV" userLabel="Search">
-                                                        <rect key="frame" x="0.0" y="25" width="81" height="20"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="20" id="ky9-n6-15P"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                        <state key="normal" title="Search"/>
-                                                    </button>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="7lt-KU-Aqs">
-                                                <rect key="frame" x="243" y="0.0" width="81" height="45"/>
-                                                <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bell" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="YW6-ax-Ayl">
-                                                        <rect key="frame" x="0.0" y="0.66666666666666607" width="81" height="24"/>
-                                                    </imageView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P09-hg-DPK" userLabel="Notification">
-                                                        <rect key="frame" x="0.0" y="25" width="81" height="20"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="20" id="hhP-WF-0HL"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                        <state key="normal" title="Notifications"/>
-                                                    </button>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Qdb-nR-7fr">
-                                                <rect key="frame" x="324" y="0.0" width="81" height="45"/>
-                                                <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tag" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="16p-fx-l58">
-                                                        <rect key="frame" x="0.0" y="0.33333333333333215" width="81" height="25.666666666666668"/>
-                                                    </imageView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3qW-8i-uvs">
-                                                        <rect key="frame" x="0.0" y="25" width="81" height="20"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="20" id="v9i-96-9xy"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                        <state key="normal" title="Selling"/>
-                                                    </button>
-                                                </subviews>
-                                            </stackView>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="45" id="Bow-bc-3yT"/>
-                                        </constraints>
-                                    </stackView>
+                                        <items>
+                                            <tabBarItem title="Home" image="house" catalog="system" id="jBR-AM-mHh"/>
+                                            <tabBarItem title="My eBay" image="person" catalog="system" id="2xA-nG-gAd"/>
+                                            <tabBarItem systemItem="search" id="XvW-C1-cGb"/>
+                                            <tabBarItem title="Notification" image="bell" catalog="system" id="9J5-os-wJz"/>
+                                            <tabBarItem title="Selling" image="tag" catalog="system" id="28E-me-Jts"/>
+                                        </items>
+                                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="selectedImageTintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tabBar>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="h7A-7a-4zA" firstAttribute="width" secondItem="pcO-YU-rYm" secondAttribute="width" multiplier="1.00247" id="D3g-fN-uv6"/>
@@ -786,7 +707,6 @@
         <image name="cart" catalog="system" width="128" height="102"/>
         <image name="house" catalog="system" width="128" height="110"/>
         <image name="lessthan" catalog="system" width="128" height="111"/>
-        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="person" catalog="system" width="128" height="117"/>
         <image name="tag" catalog="system" width="128" height="116"/>
     </resources>
