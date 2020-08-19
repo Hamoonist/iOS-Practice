@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CA11571F24E6FD2F004BC67B /* Shopping.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA11571E24E6FD2F004BC67B /* Shopping.storyboard */; };
+		CAD5217324ED61E8001CA8EB /* UIViewBorderExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD5217224ED61E8001CA8EB /* UIViewBorderExtensions.swift */; };
 		CAFCB53224E47BE0000A5AFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB53124E47BE0000A5AFF /* AppDelegate.swift */; };
 		CAFCB53424E47BE0000A5AFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB53324E47BE0000A5AFF /* SceneDelegate.swift */; };
 		CAFCB53624E47BE0000A5AFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB53524E47BE0000A5AFF /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		CA11571E24E6FD2F004BC67B /* Shopping.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shopping.storyboard; sourceTree = "<group>"; };
+		CAD5217224ED61E8001CA8EB /* UIViewBorderExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewBorderExtensions.swift; sourceTree = "<group>"; };
 		CAFCB52E24E47BE0000A5AFF /* iOS-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFCB53124E47BE0000A5AFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAFCB53324E47BE0000A5AFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,9 +82,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CAD5217124ED61C2001CA8EB /* GUIUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				CAD5217224ED61E8001CA8EB /* UIViewBorderExtensions.swift */,
+			);
+			path = GUIUtilities;
+			sourceTree = "<group>";
+		};
 		CAFCB52524E47BE0000A5AFF = {
 			isa = PBXGroup;
 			children = (
+				CAD5217124ED61C2001CA8EB /* GUIUtilities */,
 				CAFCB56124E47BFF000A5AFF /* Views */,
 				CAFCB53024E47BE0000A5AFF /* iOS-Practice */,
 				CAFCB54724E47BE3000A5AFF /* iOS-PracticeTests */,
@@ -276,6 +287,7 @@
 			files = (
 				CAFCB53624E47BE0000A5AFF /* ViewController.swift in Sources */,
 				CAFCB53224E47BE0000A5AFF /* AppDelegate.swift in Sources */,
+				CAD5217324ED61E8001CA8EB /* UIViewBorderExtensions.swift in Sources */,
 				CAFCB53424E47BE0000A5AFF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
