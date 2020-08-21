@@ -11,8 +11,6 @@
 		CAD5217324ED61E8001CA8EB /* UIViewBorderExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD5217224ED61E8001CA8EB /* UIViewBorderExtensions.swift */; };
 		CAFCB53224E47BE0000A5AFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB53124E47BE0000A5AFF /* AppDelegate.swift */; };
 		CAFCB53424E47BE0000A5AFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB53324E47BE0000A5AFF /* SceneDelegate.swift */; };
-		CAFCB53624E47BE0000A5AFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB53524E47BE0000A5AFF /* ViewController.swift */; };
-		CAFCB53924E47BE0000A5AFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFCB53724E47BE0000A5AFF /* Main.storyboard */; };
 		CAFCB53B24E47BE3000A5AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFCB53A24E47BE3000A5AFF /* Assets.xcassets */; };
 		CAFCB53E24E47BE3000A5AFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFCB53C24E47BE3000A5AFF /* LaunchScreen.storyboard */; };
 		CAFCB54924E47BE3000A5AFF /* iOS_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB54824E47BE3000A5AFF /* iOS_PracticeTests.swift */; };
@@ -43,8 +41,6 @@
 		CAFCB52E24E47BE0000A5AFF /* iOS-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFCB53124E47BE0000A5AFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAFCB53324E47BE0000A5AFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CAFCB53524E47BE0000A5AFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CAFCB53824E47BE0000A5AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAFCB53A24E47BE3000A5AFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAFCB53D24E47BE3000A5AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAFCB53F24E47BE3000A5AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -117,8 +113,6 @@
 			children = (
 				CAFCB53124E47BE0000A5AFF /* AppDelegate.swift */,
 				CAFCB53324E47BE0000A5AFF /* SceneDelegate.swift */,
-				CAFCB53524E47BE0000A5AFF /* ViewController.swift */,
-				CAFCB53724E47BE0000A5AFF /* Main.storyboard */,
 				CAFCB53A24E47BE3000A5AFF /* Assets.xcassets */,
 				CAFCB53C24E47BE3000A5AFF /* LaunchScreen.storyboard */,
 				CAFCB53F24E47BE3000A5AFF /* Info.plist */,
@@ -260,7 +254,6 @@
 				CAFCB53E24E47BE3000A5AFF /* LaunchScreen.storyboard in Resources */,
 				CAFCB53B24E47BE3000A5AFF /* Assets.xcassets in Resources */,
 				CA11571F24E6FD2F004BC67B /* Shopping.storyboard in Resources */,
-				CAFCB53924E47BE0000A5AFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +278,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAFCB53624E47BE0000A5AFF /* ViewController.swift in Sources */,
 				CAFCB53224E47BE0000A5AFF /* AppDelegate.swift in Sources */,
 				CAD5217324ED61E8001CA8EB /* UIViewBorderExtensions.swift in Sources */,
 				CAFCB53424E47BE0000A5AFF /* SceneDelegate.swift in Sources */,
@@ -324,14 +316,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CAFCB53724E47BE0000A5AFF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CAFCB53824E47BE0000A5AFF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CAFCB53C24E47BE3000A5AFF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
