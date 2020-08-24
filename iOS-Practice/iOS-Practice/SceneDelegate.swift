@@ -14,7 +14,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
-        guard let controller = UIStoryboard(name: "Shopping", bundle: nil)
+        guard let controller = UIStoryboard(name: "Music", bundle: nil)
         .instantiateInitialViewController() else { return }
         window.rootViewController = controller
         self.window = window

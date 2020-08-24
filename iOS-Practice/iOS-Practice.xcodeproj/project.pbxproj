@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA0F49B924F16BBF00BCDF81 /* Music.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0F49B824F16BBF00BCDF81 /* Music.storyboard */; };
+		CA0F49BB24F1DF0C00BCDF81 /* UIView+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F49BA24F1DF0C00BCDF81 /* UIView+Blur.swift */; };
+		CA0F49BD24F1E60D00BCDF81 /* UIView+Copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F49BC24F1E60D00BCDF81 /* UIView+Copy.swift */; };
+		CA0F49BF24F288F100BCDF81 /* UIView+SameSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F49BE24F288F100BCDF81 /* UIView+SameSize.swift */; };
 		CA11571F24E6FD2F004BC67B /* Shopping.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA11571E24E6FD2F004BC67B /* Shopping.storyboard */; };
-		CAD5217324ED61E8001CA8EB /* UIViewBorderExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD5217224ED61E8001CA8EB /* UIViewBorderExtensions.swift */; };
+		CAA9232F24F3D9CD0095714F /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9232E24F3D9CD0095714F /* MarqueeLabel.swift */; };
+		CAD5217324ED61E8001CA8EB /* UIView+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD5217224ED61E8001CA8EB /* UIView+Border.swift */; };
+		CAD8005324F3036300DB1F78 /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8005224F3036300DB1F78 /* UIView+Shadow.swift */; };
 		CAFCB53224E47BE0000A5AFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB53124E47BE0000A5AFF /* AppDelegate.swift */; };
 		CAFCB53424E47BE0000A5AFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB53324E47BE0000A5AFF /* SceneDelegate.swift */; };
 		CAFCB53B24E47BE3000A5AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFCB53A24E47BE3000A5AFF /* Assets.xcassets */; };
@@ -36,8 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA0F49B824F16BBF00BCDF81 /* Music.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Music.storyboard; sourceTree = "<group>"; };
+		CA0F49BA24F1DF0C00BCDF81 /* UIView+Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Blur.swift"; sourceTree = "<group>"; };
+		CA0F49BC24F1E60D00BCDF81 /* UIView+Copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Copy.swift"; sourceTree = "<group>"; };
+		CA0F49BE24F288F100BCDF81 /* UIView+SameSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+SameSize.swift"; sourceTree = "<group>"; };
 		CA11571E24E6FD2F004BC67B /* Shopping.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shopping.storyboard; sourceTree = "<group>"; };
-		CAD5217224ED61E8001CA8EB /* UIViewBorderExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewBorderExtensions.swift; sourceTree = "<group>"; };
+		CAA9232E24F3D9CD0095714F /* MarqueeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarqueeLabel.swift; sourceTree = "<group>"; };
+		CAD5217224ED61E8001CA8EB /* UIView+Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Border.swift"; sourceTree = "<group>"; };
+		CAD8005224F3036300DB1F78 /* UIView+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow.swift"; sourceTree = "<group>"; };
 		CAFCB52E24E47BE0000A5AFF /* iOS-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFCB53124E47BE0000A5AFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAFCB53324E47BE0000A5AFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,7 +93,12 @@
 		CAD5217124ED61C2001CA8EB /* GUIUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				CAD5217224ED61E8001CA8EB /* UIViewBorderExtensions.swift */,
+				CAD5217224ED61E8001CA8EB /* UIView+Border.swift */,
+				CA0F49BA24F1DF0C00BCDF81 /* UIView+Blur.swift */,
+				CA0F49BC24F1E60D00BCDF81 /* UIView+Copy.swift */,
+				CA0F49BE24F288F100BCDF81 /* UIView+SameSize.swift */,
+				CAD8005224F3036300DB1F78 /* UIView+Shadow.swift */,
+				CAA9232E24F3D9CD0095714F /* MarqueeLabel.swift */,
 			);
 			path = GUIUtilities;
 			sourceTree = "<group>";
@@ -143,6 +160,7 @@
 			children = (
 				CAFCB56224E47C5C000A5AFF /* FlypWelcome.storyboard */,
 				CA11571E24E6FD2F004BC67B /* Shopping.storyboard */,
+				CA0F49B824F16BBF00BCDF81 /* Music.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -251,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAFCB56324E47C5C000A5AFF /* FlypWelcome.storyboard in Resources */,
+				CA0F49B924F16BBF00BCDF81 /* Music.storyboard in Resources */,
 				CAFCB53E24E47BE3000A5AFF /* LaunchScreen.storyboard in Resources */,
 				CAFCB53B24E47BE3000A5AFF /* Assets.xcassets in Resources */,
 				CA11571F24E6FD2F004BC67B /* Shopping.storyboard in Resources */,
@@ -278,9 +297,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAD8005324F3036300DB1F78 /* UIView+Shadow.swift in Sources */,
+				CA0F49BD24F1E60D00BCDF81 /* UIView+Copy.swift in Sources */,
 				CAFCB53224E47BE0000A5AFF /* AppDelegate.swift in Sources */,
-				CAD5217324ED61E8001CA8EB /* UIViewBorderExtensions.swift in Sources */,
+				CAD5217324ED61E8001CA8EB /* UIView+Border.swift in Sources */,
+				CA0F49BF24F288F100BCDF81 /* UIView+SameSize.swift in Sources */,
+				CAA9232F24F3D9CD0095714F /* MarqueeLabel.swift in Sources */,
 				CAFCB53424E47BE0000A5AFF /* SceneDelegate.swift in Sources */,
+				CA0F49BB24F1DF0C00BCDF81 /* UIView+Blur.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
