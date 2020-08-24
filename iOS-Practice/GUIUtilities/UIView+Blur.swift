@@ -29,7 +29,7 @@ fileprivate var blurViewtag : Int = 10394012
     }
     
        @discardableResult func blur() -> UIVisualEffectView {
-        let blur = UIBlurEffect(style: .light)
+        let blur = UIBlurEffect(style: .systemThinMaterial)
            let blurView = UIVisualEffectView(effect: blur)
            blurView.frame = self.bounds
            //blurView.tag = blurViewtag
