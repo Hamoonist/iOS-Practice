@@ -12,16 +12,16 @@ import UIKit
     @IBInspectable public var shadow: Bool {
         set{
             if newValue{
-                let shadowPath = UIBezierPath(rect: CGRect(x: 0,
-                                                           y: 0,
-                                                           width: self.frame.height,
-                                                           height: self.frame.height))
+               // let shadowPath = UIBezierPath(rect: CGRect(x: 0,
+               //                                            y: 0,
+                //                                           width: self.frame.height,
+                  //                                         height: self.frame.height))
 
                 self.layer.shadowColor = UIColor.black.cgColor
                 self.layer.shadowOffset = CGSize(width: 10, height: 10)
                 self.layer.shadowOpacity = 0.5
-                self.layer.shadowRadius = 25.0
-                self.layer.shadowPath = shadowPath.cgPath
+                self.layer.shadowRadius = 20.0
+               // self.layer.shadowPath = shadowPath.cgPath
             }
         }
         get {
