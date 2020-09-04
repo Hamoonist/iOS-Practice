@@ -8,7 +8,7 @@
 import UIKit
 
 
-@IBDesignable extension UIImageView {
+@IBDesignable extension UIView {
     @IBInspectable public var circleShaped: Bool {
         set{
             self.cornerRadius = self.frame.height / 2
@@ -17,4 +17,5 @@ import UIKit
             true
         }
     }
+    
 }
