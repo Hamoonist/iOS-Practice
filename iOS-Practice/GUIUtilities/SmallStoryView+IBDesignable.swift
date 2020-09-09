@@ -35,4 +35,13 @@ extension SmallStoryView{
             self._imageInset
         }
     }
+    
+    @IBInspectable public var isWatched : Bool {
+        set{
+            self._watchedAlready = newValue
+        }
+        get {
+            self._watchedAlready
+        }
+    }
 }
