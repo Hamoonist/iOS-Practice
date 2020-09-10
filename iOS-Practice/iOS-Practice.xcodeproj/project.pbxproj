@@ -20,6 +20,7 @@
 		CA5F386125093B6F001207AB /* TopTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F386025093B6F001207AB /* TopTabBarController.swift */; };
 		CA5F386325097883001207AB /* InstagramPostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F386225097883001207AB /* InstagramPostCollectionViewCell.swift */; };
 		CA5F3867250A1119001207AB /* InstagramPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F3866250A1119001207AB /* InstagramPostsViewController.swift */; };
+		CA5F386E250AD2C7001207AB /* InstagramPostsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F386D250AD2C7001207AB /* InstagramPostsCollectionView.swift */; };
 		CAA9232F24F3D9CD0095714F /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9232E24F3D9CD0095714F /* MarqueeLabel.swift */; };
 		CAD5217324ED61E8001CA8EB /* UIView+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD5217224ED61E8001CA8EB /* UIView+Border.swift */; };
 		CAD8005324F3036300DB1F78 /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8005224F3036300DB1F78 /* UIView+Shadow.swift */; };
@@ -63,6 +64,7 @@
 		CA5F386025093B6F001207AB /* TopTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTabBarController.swift; sourceTree = "<group>"; };
 		CA5F386225097883001207AB /* InstagramPostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramPostCollectionViewCell.swift; sourceTree = "<group>"; };
 		CA5F3866250A1119001207AB /* InstagramPostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramPostsViewController.swift; sourceTree = "<group>"; };
+		CA5F386D250AD2C7001207AB /* InstagramPostsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramPostsCollectionView.swift; sourceTree = "<group>"; };
 		CAA9232E24F3D9CD0095714F /* MarqueeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarqueeLabel.swift; sourceTree = "<group>"; };
 		CAD5217224ED61E8001CA8EB /* UIView+Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Border.swift"; sourceTree = "<group>"; };
 		CAD8005224F3036300DB1F78 /* UIView+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow.swift"; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			children = (
 				CA19048224FAF83F001A9EAE /* Instagram.storyboard */,
 				CA5F386225097883001207AB /* InstagramPostCollectionViewCell.swift */,
+				CA5F386D250AD2C7001207AB /* InstagramPostsCollectionView.swift */,
 				CA5F3866250A1119001207AB /* InstagramPostsViewController.swift */,
 			);
 			path = Instagram;
@@ -331,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA58A12B25029841006F3FA8 /* UIImage+circleShaped.swift in Sources */,
+				CA5F386E250AD2C7001207AB /* InstagramPostsCollectionView.swift in Sources */,
 				CAD8005324F3036300DB1F78 /* UIView+Shadow.swift in Sources */,
 				CA0F49BD24F1E60D00BCDF81 /* UIView+Copy.swift in Sources */,
 				CA48E31B24F402B00041141E /* UISlider+changeThumb.swift in Sources */,
