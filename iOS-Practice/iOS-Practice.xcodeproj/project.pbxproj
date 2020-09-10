@@ -17,6 +17,9 @@
 		CA58A12B25029841006F3FA8 /* UIImage+circleShaped.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA58A12A25029841006F3FA8 /* UIImage+circleShaped.swift */; };
 		CA58A12D25029B0F006F3FA8 /* SmallStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA58A12C25029B0F006F3FA8 /* SmallStoryView.swift */; };
 		CA58A12F2502AEC7006F3FA8 /* SmallStoryView+IBDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA58A12E2502AEC7006F3FA8 /* SmallStoryView+IBDesignable.swift */; };
+		CA5F386125093B6F001207AB /* TopTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F386025093B6F001207AB /* TopTabBarController.swift */; };
+		CA5F386325097883001207AB /* InstagramPostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F386225097883001207AB /* InstagramPostCollectionViewCell.swift */; };
+		CA5F3867250A1119001207AB /* InstagramPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F3866250A1119001207AB /* InstagramPostsViewController.swift */; };
 		CAA9232F24F3D9CD0095714F /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9232E24F3D9CD0095714F /* MarqueeLabel.swift */; };
 		CAD5217324ED61E8001CA8EB /* UIView+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD5217224ED61E8001CA8EB /* UIView+Border.swift */; };
 		CAD8005324F3036300DB1F78 /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8005224F3036300DB1F78 /* UIView+Shadow.swift */; };
@@ -57,6 +60,9 @@
 		CA58A12A25029841006F3FA8 /* UIImage+circleShaped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+circleShaped.swift"; sourceTree = "<group>"; };
 		CA58A12C25029B0F006F3FA8 /* SmallStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallStoryView.swift; sourceTree = "<group>"; };
 		CA58A12E2502AEC7006F3FA8 /* SmallStoryView+IBDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SmallStoryView+IBDesignable.swift"; sourceTree = "<group>"; };
+		CA5F386025093B6F001207AB /* TopTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTabBarController.swift; sourceTree = "<group>"; };
+		CA5F386225097883001207AB /* InstagramPostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramPostCollectionViewCell.swift; sourceTree = "<group>"; };
+		CA5F3866250A1119001207AB /* InstagramPostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramPostsViewController.swift; sourceTree = "<group>"; };
 		CAA9232E24F3D9CD0095714F /* MarqueeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarqueeLabel.swift; sourceTree = "<group>"; };
 		CAD5217224ED61E8001CA8EB /* UIView+Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Border.swift"; sourceTree = "<group>"; };
 		CAD8005224F3036300DB1F78 /* UIView+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow.swift"; sourceTree = "<group>"; };
@@ -100,6 +106,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA5F386A250AA0BC001207AB /* Instagram */ = {
+			isa = PBXGroup;
+			children = (
+				CA19048224FAF83F001A9EAE /* Instagram.storyboard */,
+				CA5F386225097883001207AB /* InstagramPostCollectionViewCell.swift */,
+				CA5F3866250A1119001207AB /* InstagramPostsViewController.swift */,
+			);
+			path = Instagram;
+			sourceTree = "<group>";
+		};
 		CAD5217124ED61C2001CA8EB /* GUIUtilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +129,7 @@
 				CA48E31A24F402B00041141E /* UISlider+changeThumb.swift */,
 				CA58A12C25029B0F006F3FA8 /* SmallStoryView.swift */,
 				CA58A12E2502AEC7006F3FA8 /* SmallStoryView+IBDesignable.swift */,
+				CA5F386025093B6F001207AB /* TopTabBarController.swift */,
 			);
 			path = GUIUtilities;
 			sourceTree = "<group>";
@@ -175,7 +192,7 @@
 				CAFCB56224E47C5C000A5AFF /* FlypWelcome.storyboard */,
 				CA11571E24E6FD2F004BC67B /* Shopping.storyboard */,
 				CA0F49B824F16BBF00BCDF81 /* Music.storyboard */,
-				CA19048224FAF83F001A9EAE /* Instagram.storyboard */,
+				CA5F386A250AA0BC001207AB /* Instagram */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -317,6 +334,7 @@
 				CAD8005324F3036300DB1F78 /* UIView+Shadow.swift in Sources */,
 				CA0F49BD24F1E60D00BCDF81 /* UIView+Copy.swift in Sources */,
 				CA48E31B24F402B00041141E /* UISlider+changeThumb.swift in Sources */,
+				CA5F3867250A1119001207AB /* InstagramPostsViewController.swift in Sources */,
 				CAFCB53224E47BE0000A5AFF /* AppDelegate.swift in Sources */,
 				CAD5217324ED61E8001CA8EB /* UIView+Border.swift in Sources */,
 				CA0F49BF24F288F100BCDF81 /* UIView+SameSize.swift in Sources */,
@@ -324,6 +342,8 @@
 				CA58A12F2502AEC7006F3FA8 /* SmallStoryView+IBDesignable.swift in Sources */,
 				CAFCB53424E47BE0000A5AFF /* SceneDelegate.swift in Sources */,
 				CA0F49BB24F1DF0C00BCDF81 /* UIView+Blur.swift in Sources */,
+				CA5F386325097883001207AB /* InstagramPostCollectionViewCell.swift in Sources */,
+				CA5F386125093B6F001207AB /* TopTabBarController.swift in Sources */,
 				CA58A12D25029B0F006F3FA8 /* SmallStoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

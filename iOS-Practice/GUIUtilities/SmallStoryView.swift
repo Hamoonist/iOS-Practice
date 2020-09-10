@@ -7,7 +7,6 @@
 
 import UIKit
 
-@IBDesignable
 class SmallStoryView : UIView{
     var newStoryGradient : CAGradientLayer?
     var whiteCirlce: CALayer!

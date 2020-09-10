@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -54,7 +55,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="NI3-fY-7ea">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="407.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1407.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="-1" translatesAutoresizingMaskIntoConstraints="NO" id="RNZ-js-Fpz" userLabel="Top">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="318.5"/>
@@ -506,6 +507,15 @@
                                                     <constraint firstAttribute="height" constant="89" id="x7r-Sx-Ljt"/>
                                                 </constraints>
                                             </view>
+                                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tqz-4q-zOx">
+                                                <rect key="frame" x="0.0" y="407" width="414" height="1000"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="1000" id="JVv-1u-M9F"/>
+                                                </constraints>
+                                                <connections>
+                                                    <segue destination="MSi-9e-aCM" kind="embed" id="HW2-7d-p1v"/>
+                                                </connections>
+                                            </containerView>
                                         </subviews>
                                     </stackView>
                                 </subviews>
@@ -577,10 +587,89 @@
             </objects>
             <point key="canvasLocation" x="50.724637681159422" y="19.419642857142858"/>
         </scene>
+        <!--Instagram Posts View Controller-->
+        <scene sceneID="ZRe-hh-tnE">
+            <objects>
+                <viewController id="LiS-D7-K7A" customClass="InstagramPostsViewController" customModule="iOS_Practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mqt-Ko-aic">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4d8-FZ-p7H">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="iP7-vQ-7Cl">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="a4N-Dz-6vk" customClass="InstagramPostCollectionViewCell" customModule="iOS_Practice" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="N8L-Fs-WJ5">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JzT-Am-s8Q">
+                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="JzT-Am-s8Q" firstAttribute="centerX" secondItem="N8L-Fs-WJ5" secondAttribute="centerX" id="9sl-wS-0kR"/>
+                                                <constraint firstItem="JzT-Am-s8Q" firstAttribute="width" secondItem="N8L-Fs-WJ5" secondAttribute="width" id="DLJ-2w-d5e"/>
+                                                <constraint firstItem="JzT-Am-s8Q" firstAttribute="centerY" secondItem="N8L-Fs-WJ5" secondAttribute="centerY" id="JhB-WB-dgl"/>
+                                                <constraint firstItem="JzT-Am-s8Q" firstAttribute="height" secondItem="N8L-Fs-WJ5" secondAttribute="height" id="n8l-3M-U3B"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="photo" destination="JzT-Am-s8Q" id="ggI-vS-hLy"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="LiS-D7-K7A" id="bpA-gR-Aup"/>
+                                    <outlet property="delegate" destination="LiS-D7-K7A" id="EgX-I3-oz3"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="4d8-FZ-p7H" firstAttribute="height" secondItem="Mqt-Ko-aic" secondAttribute="height" id="Ma6-EM-SSk"/>
+                            <constraint firstItem="4d8-FZ-p7H" firstAttribute="centerY" secondItem="Mqt-Ko-aic" secondAttribute="centerY" id="NsT-RS-Ago"/>
+                            <constraint firstItem="4d8-FZ-p7H" firstAttribute="centerX" secondItem="Mqt-Ko-aic" secondAttribute="centerX" id="iBA-fH-Ra2"/>
+                            <constraint firstItem="4d8-FZ-p7H" firstAttribute="width" secondItem="Mqt-Ko-aic" secondAttribute="width" id="k1u-R7-emz"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="square.grid.3x2" catalog="system" id="Ydk-nW-ITn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jRa-F6-uC0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4873.913043478261" y="138.61607142857142"/>
+        </scene>
+        <!--Top Tab Bar Controller-->
+        <scene sceneID="xbi-A2-Zj3">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="MSi-9e-aCM" customClass="TopTabBarController" customModule="iOS_Practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jrw-Bq-kCZ">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="LiS-D7-K7A" kind="relationship" relationship="viewControllers" id="LtH-cx-yJH"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tzq-09-yDW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3965.217391304348" y="138.61607142857142"/>
+        </scene>
     </scenes>
     <resources>
         <image name="9gagLogo" width="1200" height="1200"/>
         <image name="Bohemian" width="316" height="316"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="square.grid.3x2" catalog="system" width="128" height="80"/>
     </resources>
 </document>
