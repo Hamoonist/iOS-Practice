@@ -55,10 +55,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="NI3-fY-7ea">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1561.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1571"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="-1" translatesAutoresizingMaskIntoConstraints="NO" id="RNZ-js-Fpz" userLabel="Top">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="315"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="324.5"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="-25" translatesAutoresizingMaskIntoConstraints="NO" id="Kq2-fb-lu5" userLabel="LogoAndStats">
                                                         <rect key="frame" x="8" y="8" width="398" height="109"/>
@@ -143,7 +143,7 @@
                                                         <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="0.0" bottom="8" trailing="0.0"/>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="xCk-2B-6vA" userLabel="Bio">
-                                                        <rect key="frame" x="8" y="116" width="398" height="160"/>
+                                                        <rect key="frame" x="8" y="116" width="398" height="162.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9GAG: Go Fun The World" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10T-rG-GHX">
                                                                 <rect key="frame" x="8" y="8" width="382" height="17"/>
@@ -200,11 +200,44 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qyJ-wZ-Tat" userLabel="Followed by">
-                                                                <rect key="frame" x="8" y="138.5" width="382" height="13.5"/>
+                                                                <rect key="frame" x="8" y="138.5" width="382" height="16"/>
                                                                 <attributedString key="attributedText">
-                                                                    <fragment content="Followed by lovincyrus, lebanesememes, and 28 others">
+                                                                    <fragment content="Followed by ">
                                                                         <attributes>
-                                                                            <font key="NSFont" metaFont="smallSystem"/>
+                                                                            <font key="NSFont" metaFont="system" size="14"/>
+                                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                    <fragment content="lovincyrus">
+                                                                        <attributes>
+                                                                            <font key="NSFont" metaFont="systemBold" size="14"/>
+                                                                            <font key="NSOriginalFont" metaFont="systemBold" size="14"/>
+                                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                    <fragment content=", ">
+                                                                        <attributes>
+                                                                            <font key="NSFont" metaFont="system" size="14"/>
+                                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                    <fragment content="lebanesememes">
+                                                                        <attributes>
+                                                                            <font key="NSFont" metaFont="systemBold" size="14"/>
+                                                                            <font key="NSOriginalFont" metaFont="systemBold" size="14"/>
+                                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                    <fragment content=", and ">
+                                                                        <attributes>
+                                                                            <font key="NSFont" metaFont="system" size="14"/>
+                                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                    <fragment content="28 others">
+                                                                        <attributes>
+                                                                            <font key="NSFont" metaFont="systemBold" size="14"/>
+                                                                            <font key="NSOriginalFont" metaFont="systemBold" size="14"/>
                                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                         </attributes>
                                                                     </fragment>
@@ -215,10 +248,10 @@
                                                         <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="Iwr-5a-09o">
-                                                        <rect key="frame" x="8" y="275" width="398" height="32"/>
+                                                        <rect key="frame" x="8" y="277.5" width="398" height="39"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FollowingＶ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KkH-hY-h8e">
-                                                                <rect key="frame" x="8" y="2" width="110.5" height="28"/>
+                                                                <rect key="frame" x="8" y="8" width="110" height="29"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                                                                 <nil key="textColor"/>
@@ -236,7 +269,7 @@
                                                                 </userDefinedRuntimeAttributes>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcT-oT-eEa">
-                                                                <rect key="frame" x="125.5" y="2" width="110.5" height="28"/>
+                                                                <rect key="frame" x="125" y="8" width="110.5" height="29"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                                                                 <nil key="textColor"/>
@@ -254,7 +287,7 @@
                                                                 </userDefinedRuntimeAttributes>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwy-Al-Jp9">
-                                                                <rect key="frame" x="243" y="2" width="110.5" height="28"/>
+                                                                <rect key="frame" x="242.5" y="8" width="110" height="29"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                                                                 <nil key="textColor"/>
@@ -272,7 +305,7 @@
                                                                 </userDefinedRuntimeAttributes>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="V" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EXK-bn-fBS">
-                                                                <rect key="frame" x="360.5" y="2" width="29.5" height="28"/>
+                                                                <rect key="frame" x="359.5" y="8" width="30.5" height="29"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" secondItem="EXK-bn-fBS" secondAttribute="height" multiplier="1:0.95" id="MRa-qV-q5K"/>
@@ -294,17 +327,17 @@
                                                             </label>
                                                         </subviews>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="32" id="S6O-Nq-owk"/>
+                                                            <constraint firstAttribute="height" constant="39" id="S6O-Nq-owk"/>
                                                             <constraint firstItem="hwy-Al-Jp9" firstAttribute="width" secondItem="KkH-hY-h8e" secondAttribute="width" id="W15-Ht-KqJ"/>
                                                             <constraint firstItem="kcT-oT-eEa" firstAttribute="width" secondItem="KkH-hY-h8e" secondAttribute="width" id="z5o-WW-3Y2"/>
                                                         </constraints>
-                                                        <directionalEdgeInsets key="directionalLayoutMargins" top="2" leading="8" bottom="2" trailing="8"/>
+                                                        <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="2" trailing="8"/>
                                                     </stackView>
                                                 </subviews>
                                                 <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
                                             </stackView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9WU-LM-J3h">
-                                                <rect key="frame" x="0.0" y="315" width="414" height="89"/>
+                                                <rect key="frame" x="0.0" y="324.5" width="414" height="89"/>
                                                 <subviews>
                                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceHorizontal="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdI-gi-bR0">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="89"/>
@@ -505,7 +538,7 @@
                                                 </constraints>
                                             </view>
                                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tqz-4q-zOx">
-                                                <rect key="frame" x="0.0" y="404" width="414" height="1157.5"/>
+                                                <rect key="frame" x="0.0" y="413.5" width="414" height="1157.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Tqz-4q-zOx" secondAttribute="height" multiplier="3:8" constant="-20" id="paF-dW-bB2"/>
                                                 </constraints>
@@ -575,6 +608,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.0" green="0.02693335669" blue="0.25562470479999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="eOf-tH-Yfg" kind="relationship" relationship="viewControllers" id="Pqd-Jh-c9y"/>
@@ -653,6 +687,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.0" green="0.02693335669" blue="0.25562470479999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.0" green="0.02693335669" blue="0.25562470479999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="LiS-D7-K7A" kind="relationship" relationship="viewControllers" id="LtH-cx-yJH"/>
