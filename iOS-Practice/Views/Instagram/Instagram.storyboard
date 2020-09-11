@@ -55,10 +55,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="NI3-fY-7ea">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1407.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1561.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="-1" translatesAutoresizingMaskIntoConstraints="NO" id="RNZ-js-Fpz" userLabel="Top">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="318.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="315"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="-25" translatesAutoresizingMaskIntoConstraints="NO" id="Kq2-fb-lu5" userLabel="LogoAndStats">
                                                         <rect key="frame" x="8" y="8" width="398" height="109"/>
@@ -143,7 +143,7 @@
                                                         <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="0.0" bottom="8" trailing="0.0"/>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="xCk-2B-6vA" userLabel="Bio">
-                                                        <rect key="frame" x="8" y="116" width="398" height="163.5"/>
+                                                        <rect key="frame" x="8" y="116" width="398" height="160"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9GAG: Go Fun The World" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10T-rG-GHX">
                                                                 <rect key="frame" x="8" y="8" width="382" height="17"/>
@@ -161,22 +161,7 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ca3-av-vUZ">
                                                                 <rect key="frame" x="8" y="46" width="382" height="33.5"/>
                                                                 <attributedString key="attributedText">
-                                                                    <fragment content="🌟">
-                                                                        <attributes>
-                                                                            <font key="NSFont" size="14" name=".AppleColorEmojiUI"/>
-                                                                        </attributes>
-                                                                    </fragment>
-                                                                    <fragment content=" Get our app for the latest and funniest MEMES and VIDEOS ">
-                                                                        <attributes>
-                                                                            <font key="NSFont" metaFont="menu" size="14"/>
-                                                                        </attributes>
-                                                                    </fragment>
-                                                                    <fragment content="👉">
-                                                                        <attributes>
-                                                                            <font key="NSFont" size="14" name=".AppleColorEmojiUI"/>
-                                                                        </attributes>
-                                                                    </fragment>
-                                                                    <fragment content=" ">
+                                                                    <fragment content="🌟 Get our app for the latest and funniest MEMES and VIDEOS 👉 ">
                                                                         <attributes>
                                                                             <font key="NSFont" metaFont="menu" size="14"/>
                                                                         </attributes>
@@ -202,23 +187,35 @@
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="bit.ly/ToD2077" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oDf-FN-BOT" userLabel="bitly link">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oDf-FN-BOT" userLabel="bitly link">
                                                                 <rect key="frame" x="8" y="119.5" width="382" height="17"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                                <color key="textColor" red="0.0" green="0.20468724959905962" blue="0.513515678574476" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <attributedString key="attributedText">
+                                                                    <fragment content="bit.ly/ToD2077">
+                                                                        <attributes>
+                                                                            <color key="NSColor" red="0.0" green="0.20468724959905962" blue="0.513515678574476" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                            <font key="NSFont" metaFont="system" size="14"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                </attributedString>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Followed by lovincyrus, lebansememes and 28 others" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qyJ-wZ-Tat" userLabel="Followed by">
-                                                                <rect key="frame" x="8" y="138.5" width="382" height="17"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                                <nil key="textColor"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qyJ-wZ-Tat" userLabel="Followed by">
+                                                                <rect key="frame" x="8" y="138.5" width="382" height="13.5"/>
+                                                                <attributedString key="attributedText">
+                                                                    <fragment content="Followed by lovincyrus, lebanesememes, and 28 others">
+                                                                        <attributes>
+                                                                            <font key="NSFont" metaFont="smallSystem"/>
+                                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                </attributedString>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
                                                         <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="Iwr-5a-09o">
-                                                        <rect key="frame" x="8" y="278.5" width="398" height="32"/>
+                                                        <rect key="frame" x="8" y="275" width="398" height="32"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FollowingＶ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KkH-hY-h8e">
                                                                 <rect key="frame" x="8" y="2" width="110.5" height="28"/>
@@ -307,7 +304,7 @@
                                                 <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
                                             </stackView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9WU-LM-J3h">
-                                                <rect key="frame" x="0.0" y="318.5" width="414" height="89"/>
+                                                <rect key="frame" x="0.0" y="315" width="414" height="89"/>
                                                 <subviews>
                                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceHorizontal="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdI-gi-bR0">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="89"/>
@@ -508,9 +505,9 @@
                                                 </constraints>
                                             </view>
                                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tqz-4q-zOx">
-                                                <rect key="frame" x="0.0" y="407" width="414" height="1000"/>
+                                                <rect key="frame" x="0.0" y="404" width="414" height="1157.5"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="1000" id="JVv-1u-M9F"/>
+                                                    <constraint firstAttribute="width" secondItem="Tqz-4q-zOx" secondAttribute="height" multiplier="3:8" constant="-20" id="paF-dW-bB2"/>
                                                 </constraints>
                                                 <connections>
                                                     <segue destination="MSi-9e-aCM" kind="embed" id="HW2-7d-p1v"/>
@@ -592,11 +589,11 @@
             <objects>
                 <viewController id="LiS-D7-K7A" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mqt-Ko-aic" customClass="InstagramPostsCollectionView" customModule="iOS_Practice" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1157.5"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4d8-FZ-p7H" customClass="InstagramPostsCollectionView" customModule="iOS_Practice" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                <rect key="frame" x="0.0" y="50" width="414" height="1107.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="iP7-vQ-7Cl">
                                     <size key="itemSize" width="128" height="128"/>
@@ -632,17 +629,20 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="4d8-FZ-p7H" firstAttribute="height" secondItem="Mqt-Ko-aic" secondAttribute="height" id="Ma6-EM-SSk"/>
-                            <constraint firstItem="4d8-FZ-p7H" firstAttribute="centerY" secondItem="Mqt-Ko-aic" secondAttribute="centerY" id="NsT-RS-Ago"/>
-                            <constraint firstItem="4d8-FZ-p7H" firstAttribute="centerX" secondItem="Mqt-Ko-aic" secondAttribute="centerX" id="iBA-fH-Ra2"/>
+                            <constraint firstItem="4d8-FZ-p7H" firstAttribute="centerX" secondItem="Mqt-Ko-aic" secondAttribute="centerX" id="BTv-yh-rLP"/>
+                            <constraint firstItem="4d8-FZ-p7H" firstAttribute="height" secondItem="Mqt-Ko-aic" secondAttribute="height" constant="-50" id="Ma6-EM-SSk"/>
+                            <constraint firstItem="4d8-FZ-p7H" firstAttribute="bottom" secondItem="Mqt-Ko-aic" secondAttribute="bottom" id="b7r-CL-bFI"/>
                             <constraint firstItem="4d8-FZ-p7H" firstAttribute="width" secondItem="Mqt-Ko-aic" secondAttribute="width" id="k1u-R7-emz"/>
+                            <constraint firstAttribute="trailing" secondItem="4d8-FZ-p7H" secondAttribute="trailing" id="lTc-RL-1gh"/>
+                            <constraint firstItem="4d8-FZ-p7H" firstAttribute="top" secondItem="Mqt-Ko-aic" secondAttribute="top" constant="50" id="tfz-yA-LjL"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="QzA-v8-wiB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="square.grid.3x2" catalog="system" id="Ydk-nW-ITn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jRa-F6-uC0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4828" y="53"/>
+            <point key="canvasLocation" x="4926" y="-562"/>
         </scene>
         <!--Top Tab Bar Controller-->
         <scene sceneID="xbi-A2-Zj3">
@@ -650,21 +650,41 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="MSi-9e-aCM" customClass="TopTabBarController" customModule="iOS_Practice" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jrw-Bq-kCZ">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="LiS-D7-K7A" kind="relationship" relationship="viewControllers" id="LtH-cx-yJH"/>
+                        <segue destination="pVf-mp-35M" kind="relationship" relationship="viewControllers" id="j9c-Ij-yf0"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tzq-09-yDW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3878" y="53"/>
+            <point key="canvasLocation" x="3868" y="19"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vfh-EC-h9X">
+            <objects>
+                <viewController id="pVf-mp-35M" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Exj-74-AjQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1157.5"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="pEe-HN-Z9p"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="film" catalog="system" id="L0X-jf-12l"/>
+                    <navigationItem key="navigationItem" id="cNv-hD-bSD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Jj-nX-GoC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4923" y="360"/>
         </scene>
     </scenes>
     <resources>
         <image name="9gagLogo" width="1200" height="1200"/>
         <image name="Bohemian" width="316" height="316"/>
+        <image name="film" catalog="system" width="128" height="93"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="square.grid.3x2" catalog="system" width="128" height="80"/>
     </resources>

@@ -12,7 +12,7 @@ class InstagramPostsCollectionView: UICollectionView, UICollectionViewDelegateFl
     
 
     private var _numberOfColumns: Int  = 3
-
+    private var _inset : CGFloat = 1
     
     //MARK: Init
     override init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
@@ -36,11 +36,11 @@ class InstagramPostsCollectionView: UICollectionView, UICollectionViewDelegateFl
         return CGSize(width: cellWidth, height: cellWidth)
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets(top: 0, left: 0, bottom: 0.0, right: 0.0)
+        return UIEdgeInsets(top: 0  , left: 0, bottom: 0  , right: 0)
       }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-         return 0.0
+         return _inset
       }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
@@ -66,7 +66,7 @@ class InstagramPostsCollectionView: UICollectionView, UICollectionViewDelegateFl
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! InstagramPostCollectionViewCell
         cell.photo.image = memes[indexPath.item]
         let collectionWidth = self.bounds.width
-        let cellWidth =  collectionWidth / CGFloat(_numberOfColumns)
+        let cellWidth =  ( collectionWidth / CGFloat(_numberOfColumns) ) - _inset
         cell.heightAnchor.constraint(equalToConstant: cellWidth).isActive = true
         cell.widthAnchor.constraint(equalToConstant: cellWidth).isActive = true
 

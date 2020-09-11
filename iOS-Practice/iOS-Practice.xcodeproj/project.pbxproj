@@ -22,6 +22,7 @@
 		CA5F3867250A1119001207AB /* InstagramPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F3866250A1119001207AB /* InstagramPostsViewController.swift */; };
 		CA5F386E250AD2C7001207AB /* InstagramPostsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5F386D250AD2C7001207AB /* InstagramPostsCollectionView.swift */; };
 		CAA9232F24F3D9CD0095714F /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA9232E24F3D9CD0095714F /* MarqueeLabel.swift */; };
+		CABACE21250B74FA006DE059 /* InstagramPostsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABACE20250B74FA006DE059 /* InstagramPostsLayout.swift */; };
 		CAD5217324ED61E8001CA8EB /* UIView+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD5217224ED61E8001CA8EB /* UIView+Border.swift */; };
 		CAD8005324F3036300DB1F78 /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD8005224F3036300DB1F78 /* UIView+Shadow.swift */; };
 		CAFCB53224E47BE0000A5AFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB53124E47BE0000A5AFF /* AppDelegate.swift */; };
@@ -66,6 +67,7 @@
 		CA5F3866250A1119001207AB /* InstagramPostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramPostsViewController.swift; sourceTree = "<group>"; };
 		CA5F386D250AD2C7001207AB /* InstagramPostsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramPostsCollectionView.swift; sourceTree = "<group>"; };
 		CAA9232E24F3D9CD0095714F /* MarqueeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarqueeLabel.swift; sourceTree = "<group>"; };
+		CABACE20250B74FA006DE059 /* InstagramPostsLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramPostsLayout.swift; sourceTree = "<group>"; };
 		CAD5217224ED61E8001CA8EB /* UIView+Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Border.swift"; sourceTree = "<group>"; };
 		CAD8005224F3036300DB1F78 /* UIView+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow.swift"; sourceTree = "<group>"; };
 		CAFCB52E24E47BE0000A5AFF /* iOS-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +117,7 @@
 				CA5F386225097883001207AB /* InstagramPostCollectionViewCell.swift */,
 				CA5F386D250AD2C7001207AB /* InstagramPostsCollectionView.swift */,
 				CA5F3866250A1119001207AB /* InstagramPostsViewController.swift */,
+				CABACE20250B74FA006DE059 /* InstagramPostsLayout.swift */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				CA58A12F2502AEC7006F3FA8 /* SmallStoryView+IBDesignable.swift in Sources */,
 				CAFCB53424E47BE0000A5AFF /* SceneDelegate.swift in Sources */,
 				CA0F49BB24F1DF0C00BCDF81 /* UIView+Blur.swift in Sources */,
+				CABACE21250B74FA006DE059 /* InstagramPostsLayout.swift in Sources */,
 				CA5F386325097883001207AB /* InstagramPostCollectionViewCell.swift in Sources */,
 				CA5F386125093B6F001207AB /* TopTabBarController.swift in Sources */,
 				CA58A12D25029B0F006F3FA8 /* SmallStoryView.swift in Sources */,
